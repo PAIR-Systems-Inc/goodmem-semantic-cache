@@ -1,0 +1,543 @@
+{
+  "pairs": "pairs.json",
+  "embeddingModel": "text-embedding-3-small",
+  "judge": "typesafe/jev-1.13",
+  "floor": 0.55,
+  "minProbability": 0.5,
+  "medianLookupMs": 207.94472099999984,
+  "medianJudgeMs": 145.54891000000043,
+  "thresholdRows": [
+    {
+      "threshold": 0.5,
+      "served": 50,
+      "wrong": 28,
+      "missed": 0,
+      "precision": 0.44,
+      "recall": 1
+    },
+    {
+      "threshold": 0.55,
+      "served": 49,
+      "wrong": 27,
+      "missed": 0,
+      "precision": 0.4489795918367347,
+      "recall": 1
+    },
+    {
+      "threshold": 0.6,
+      "served": 45,
+      "wrong": 26,
+      "missed": 3,
+      "precision": 0.4222222222222222,
+      "recall": 0.8636363636363636
+    },
+    {
+      "threshold": 0.65,
+      "served": 40,
+      "wrong": 22,
+      "missed": 4,
+      "precision": 0.45,
+      "recall": 0.8181818181818182
+    },
+    {
+      "threshold": 0.7,
+      "served": 33,
+      "wrong": 18,
+      "missed": 7,
+      "precision": 0.45454545454545453,
+      "recall": 0.6818181818181818
+    },
+    {
+      "threshold": 0.75,
+      "served": 25,
+      "wrong": 13,
+      "missed": 10,
+      "precision": 0.48,
+      "recall": 0.5454545454545454
+    },
+    {
+      "threshold": 0.8,
+      "served": 16,
+      "wrong": 8,
+      "missed": 14,
+      "precision": 0.5,
+      "recall": 0.36363636363636365
+    },
+    {
+      "threshold": 0.85,
+      "served": 7,
+      "wrong": 5,
+      "missed": 20,
+      "precision": 0.2857142857142857,
+      "recall": 0.09090909090909091
+    },
+    {
+      "threshold": 0.9,
+      "served": 3,
+      "wrong": 3,
+      "missed": 22,
+      "precision": 0,
+      "recall": 0
+    },
+    {
+      "threshold": 0.95,
+      "served": 0,
+      "wrong": 0,
+      "missed": 22,
+      "precision": null,
+      "recall": 0
+    }
+  ],
+  "judgeRows": [
+    {
+      "min prob": 0.1,
+      "served": 24,
+      "wrong": 2,
+      "missed": 0,
+      "precision": 0.9166666666666666,
+      "recall": 1
+    },
+    {
+      "min prob": 0.25,
+      "served": 21,
+      "wrong": 0,
+      "missed": 1,
+      "precision": 1,
+      "recall": 0.9545454545454546
+    },
+    {
+      "min prob": 0.5,
+      "served": 21,
+      "wrong": 0,
+      "missed": 1,
+      "precision": 1,
+      "recall": 0.9545454545454546
+    },
+    {
+      "min prob": 0.75,
+      "served": 20,
+      "wrong": 0,
+      "missed": 2,
+      "precision": 1,
+      "recall": 0.9090909090909091
+    },
+    {
+      "min prob": 0.9,
+      "served": 12,
+      "wrong": 0,
+      "missed": 10,
+      "precision": 1,
+      "recall": 0.5454545454545454
+    }
+  ],
+  "scored": [
+    {
+      "cached": "How do I reset my password?",
+      "query": "I forgot my password. How can I reset it?",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.7724950313568115,
+      "reuseProbability": 0.96
+    },
+    {
+      "cached": "How do I reset my password?",
+      "query": "how can i change my password",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.7243531346321106,
+      "reuseProbability": 0.72
+    },
+    {
+      "cached": "How do I reset my password?",
+      "query": "Steps to recover a lost password",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.6732473969459534,
+      "reuseProbability": 0.87
+    },
+    {
+      "cached": "How do I reset my password?",
+      "query": "How do I reset my username?",
+      "same": false,
+      "kind": "entity swap",
+      "similarity": 0.7139173746109009,
+      "reuseProbability": 0.03
+    },
+    {
+      "cached": "How do I reset my password?",
+      "query": "How do I reset my router?",
+      "same": false,
+      "kind": "entity swap",
+      "similarity": 0.6369920969009399,
+      "reuseProbability": 0.02
+    },
+    {
+      "cached": "How do I reset my password?",
+      "query": "Why do I keep getting asked to reset my password?",
+      "same": false,
+      "kind": "related question",
+      "similarity": 0.614575982093811,
+      "reuseProbability": 0.04
+    },
+    {
+      "cached": "What is your refund policy?",
+      "query": "Can I get my money back if I return an item?",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.5629773139953613,
+      "reuseProbability": 0.8
+    },
+    {
+      "cached": "What is your refund policy?",
+      "query": "how do refunds work",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.6292381286621094,
+      "reuseProbability": 0.86
+    },
+    {
+      "cached": "What is your refund policy?",
+      "query": "What is your shipping policy?",
+      "same": false,
+      "kind": "entity swap",
+      "similarity": 0.663378119468689,
+      "reuseProbability": 0.02
+    },
+    {
+      "cached": "What is your refund policy?",
+      "query": "My refund has not arrived. What should I do?",
+      "same": false,
+      "kind": "related question",
+      "similarity": 0.47664326429367065,
+      "reuseProbability": 0.07
+    },
+    {
+      "cached": "How do I cancel my subscription?",
+      "query": "I want to stop my subscription. How?",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.8417232036590576,
+      "reuseProbability": 0.96
+    },
+    {
+      "cached": "How do I cancel my subscription?",
+      "query": "Where is the option to end my plan?",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.560352623462677,
+      "reuseProbability": 0.88
+    },
+    {
+      "cached": "How do I cancel my subscription?",
+      "query": "How do I upgrade my subscription?",
+      "same": false,
+      "kind": "entity swap",
+      "similarity": 0.6616283059120178,
+      "reuseProbability": 0.02
+    },
+    {
+      "cached": "How do I cancel my subscription?",
+      "query": "Will I be charged if I cancel my subscription mid-month?",
+      "same": false,
+      "kind": "related question",
+      "similarity": 0.6312690377235413,
+      "reuseProbability": 0.04
+    },
+    {
+      "cached": "Do you ship to Canada?",
+      "query": "Can I get an order delivered to Canada?",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.6670611500740051,
+      "reuseProbability": 0.95
+    },
+    {
+      "cached": "Do you ship to Canada?",
+      "query": "do you deliver to canada",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.7399795055389404,
+      "reuseProbability": 0.92
+    },
+    {
+      "cached": "Do you ship to Canada?",
+      "query": "Do you ship to Mexico?",
+      "same": false,
+      "kind": "entity swap",
+      "similarity": 0.7253152132034302,
+      "reuseProbability": 0.05
+    },
+    {
+      "cached": "Do you ship to Canada?",
+      "query": "How long does shipping to Canada take?",
+      "same": false,
+      "kind": "related question",
+      "similarity": 0.6417765021324158,
+      "reuseProbability": 0.03
+    },
+    {
+      "cached": "What are your opening hours on Saturday?",
+      "query": "When are you open on Saturdays?",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.8296792507171631,
+      "reuseProbability": 0.96
+    },
+    {
+      "cached": "What are your opening hours on Saturday?",
+      "query": "What are your opening hours on Sunday?",
+      "same": false,
+      "kind": "entity swap",
+      "similarity": 0.7912591099739075,
+      "reuseProbability": 0.03
+    },
+    {
+      "cached": "What are your opening hours on Saturday?",
+      "query": "What time do you open and close on Saturdays?",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.7990930080413818,
+      "reuseProbability": 0.92
+    },
+    {
+      "cached": "Is the store open today?",
+      "query": "Is the store open tomorrow?",
+      "same": false,
+      "kind": "time",
+      "similarity": 0.8360406160354614,
+      "reuseProbability": 0.04
+    },
+    {
+      "cached": "What is the weather in Paris today?",
+      "query": "What is the weather in Paris tomorrow?",
+      "same": false,
+      "kind": "time",
+      "similarity": 0.8508820533752441,
+      "reuseProbability": 0.02
+    },
+    {
+      "cached": "What is the weather in Paris today?",
+      "query": "What is the weather in London today?",
+      "same": false,
+      "kind": "entity swap",
+      "similarity": 0.6951264142990112,
+      "reuseProbability": 0.02
+    },
+    {
+      "cached": "What is the weather in Paris today?",
+      "query": "How's the weather in Paris right now?",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.8483365178108215,
+      "reuseProbability": 0.85
+    },
+    {
+      "cached": "What were the sales figures for 2024?",
+      "query": "What were the sales figures for 2025?",
+      "same": false,
+      "kind": "number",
+      "similarity": 0.8471749424934387,
+      "reuseProbability": 0.02
+    },
+    {
+      "cached": "Is ibuprofen safe to take with alcohol?",
+      "query": "Can I drink alcohol while taking ibuprofen?",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.8046390414237976,
+      "reuseProbability": 0.93
+    },
+    {
+      "cached": "Is ibuprofen safe to take with alcohol?",
+      "query": "Is acetaminophen safe to take with alcohol?",
+      "same": false,
+      "kind": "entity swap",
+      "similarity": 0.7733123898506165,
+      "reuseProbability": 0.05
+    },
+    {
+      "cached": "Is ibuprofen safe to take with alcohol?",
+      "query": "Is ibuprofen unsafe to take without food?",
+      "same": false,
+      "kind": "related question",
+      "similarity": 0.6890453100204468,
+      "reuseProbability": 0.03
+    },
+    {
+      "cached": "How do I convert a list to a set in Python?",
+      "query": "python: turn a list into a set",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.8458101153373718,
+      "reuseProbability": 0.97
+    },
+    {
+      "cached": "How do I convert a list to a set in Python?",
+      "query": "How do I convert a set to a list in Python?",
+      "same": false,
+      "kind": "order swap",
+      "similarity": 0.9208385944366455,
+      "reuseProbability": 0.13
+    },
+    {
+      "cached": "How do I convert a list to a set in Python?",
+      "query": "How do I convert a list to a set in JavaScript?",
+      "same": false,
+      "kind": "entity swap",
+      "similarity": 0.7345440983772278,
+      "reuseProbability": 0.03
+    },
+    {
+      "cached": "How do I sort a list in descending order in Python?",
+      "query": "Python: sort a list from largest to smallest",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.7888472080230713,
+      "reuseProbability": 0.97
+    },
+    {
+      "cached": "How do I sort a list in descending order in Python?",
+      "query": "How do I sort a list in ascending order in Python?",
+      "same": false,
+      "kind": "negation",
+      "similarity": 0.9121185541152954,
+      "reuseProbability": 0.04
+    },
+    {
+      "cached": "Which plans include single sign-on?",
+      "query": "Is SSO available on every plan?",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.6509449481964111,
+      "reuseProbability": 0.2
+    },
+    {
+      "cached": "Which plans include single sign-on?",
+      "query": "Which plans do not include single sign-on?",
+      "same": false,
+      "kind": "negation",
+      "similarity": 0.8887190818786621,
+      "reuseProbability": 0.02
+    },
+    {
+      "cached": "Can I use the API without a credit card?",
+      "query": "Do I need a credit card to use the API?",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.8570411205291748,
+      "reuseProbability": 0.86
+    },
+    {
+      "cached": "Can I use the API without a credit card?",
+      "query": "Can I use the API with a debit card?",
+      "same": false,
+      "kind": "entity swap",
+      "similarity": 0.7712516784667969,
+      "reuseProbability": 0.11
+    },
+    {
+      "cached": "What is the maximum file size for uploads?",
+      "query": "How big can an uploaded file be?",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.7942888736724854,
+      "reuseProbability": 0.95
+    },
+    {
+      "cached": "What is the maximum file size for uploads?",
+      "query": "What is the minimum file size for uploads?",
+      "same": false,
+      "kind": "negation",
+      "similarity": 0.8384979367256165,
+      "reuseProbability": 0.02
+    },
+    {
+      "cached": "What is the maximum file size for uploads?",
+      "query": "What file types can I upload?",
+      "same": false,
+      "kind": "related question",
+      "similarity": 0.5937164425849915,
+      "reuseProbability": 0.02
+    },
+    {
+      "cached": "How many vacation days do new employees get?",
+      "query": "What is the PTO allowance for new hires?",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.5677960515022278,
+      "reuseProbability": 0.76
+    },
+    {
+      "cached": "How many vacation days do new employees get?",
+      "query": "How many sick days do new employees get?",
+      "same": false,
+      "kind": "entity swap",
+      "similarity": 0.7726886868476868,
+      "reuseProbability": 0.03
+    },
+    {
+      "cached": "How many vacation days do new employees get?",
+      "query": "How many vacation days do employees get after five years?",
+      "same": false,
+      "kind": "number",
+      "similarity": 0.7425041198730469,
+      "reuseProbability": 0.03
+    },
+    {
+      "cached": "Who is the CEO of the company?",
+      "query": "Who runs the company?",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.7271031737327576,
+      "reuseProbability": 0.76
+    },
+    {
+      "cached": "Who is the CEO of the company?",
+      "query": "Who is the CFO of the company?",
+      "same": false,
+      "kind": "entity swap",
+      "similarity": 0.760160505771637,
+      "reuseProbability": 0.02
+    },
+    {
+      "cached": "What is the capital of Australia?",
+      "query": "Which city is Australia's capital?",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.8391723036766052,
+      "reuseProbability": 0.95
+    },
+    {
+      "cached": "What is the capital of Australia?",
+      "query": "What is the capital of Austria?",
+      "same": false,
+      "kind": "entity swap",
+      "similarity": 0.5450946688652039,
+      "reuseProbability": 0.02
+    },
+    {
+      "cached": "What is the capital of Australia?",
+      "query": "What is the largest city in Australia?",
+      "same": false,
+      "kind": "related question",
+      "similarity": 0.7138550281524658,
+      "reuseProbability": 0.03
+    },
+    {
+      "cached": "Summarize our Q3 earnings call.",
+      "query": "Give me a summary of the Q3 earnings call.",
+      "same": true,
+      "kind": "paraphrase",
+      "similarity": 0.8715992569923401,
+      "reuseProbability": 0.94
+    },
+    {
+      "cached": "Summarize our Q3 earnings call.",
+      "query": "Summarize our Q4 earnings call.",
+      "same": false,
+      "kind": "number",
+      "similarity": 0.9257123470306396,
+      "reuseProbability": 0.02
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "cached": "What's the difference between a list and a tuple in Python?",
+    "query": "python: tuple vs list, how are they different?",
+    "same": true,
+    "kind": "casual reordered paraphrase of a coding concept question"
+  },
+  {
+    "cached": "How do I sort a Python list in place?",
+    "query": "How do I get a sorted copy of a Python list without changing the original?",
+    "same": false,
+    "kind": "in-place mutation vs new copy; different function needed"
+  },
+  {
+    "cached": "How many days of paid parental leave do employees get?",
+    "query": "What is the company's paid parental leave entitlement, in days?",
+    "same": true,
+    "kind": "formal rewording of an HR benefits question"
+  },
+  {
+    "cached": "How many vacation days do full-time employees get per year?",
+    "query": "How many vacation days do part-time employees get per year?",
+    "same": false,
+    "kind": "employee population swapped in otherwise identical HR question"
+  },
+  {
+    "cached": "What is the capital of Australia?",
+    "query": "australias capital city?",
+    "same": true,
+    "kind": "terse lowercase paraphrase with typo"
+  },
+  {
+    "cached": "What's the capital of Canada?",
+    "query": "What's the largest city in Canada?",
+    "same": false,
+    "kind": "capital vs largest city; differ for this country"
+  },
+  {
+    "cached": "Can I bring a power bank in my checked luggage?",
+    "query": "Are portable phone chargers allowed in checked bags?",
+    "same": true,
+    "kind": "synonym substitution for travel rule question"
+  },
+  {
+    "cached": "Can I bring a power bank in my carry-on?",
+    "query": "Can I bring a power bank in my checked bag?",
+    "same": false,
+    "kind": "carry-on vs checked baggage flips the answer"
+  },
+  {
+    "cached": "How do I undo the last git commit but keep my changes?",
+    "query": "Is there a way to uncommit my latest commit and keep the file edits?",
+    "same": true,
+    "kind": "informal paraphrase of a git how-to"
+  },
+  {
+    "cached": "How do I delete a local git branch?",
+    "query": "How do I delete a remote git branch?",
+    "same": false,
+    "kind": "local vs remote scope requires a different command"
+  },
+  {
+    "cached": "What are the common symptoms of iron deficiency?",
+    "query": "What signs might indicate I'm low on iron?",
+    "same": true,
+    "kind": "lay-language paraphrase of a health question"
+  },
+  {
+    "cached": "Is ibuprofen safe to take during pregnancy?",
+    "query": "Is acetaminophen safe to take during pregnancy?",
+    "same": false,
+    "kind": "different drug named; safety guidance differs"
+  },
+  {
+    "cached": "How long does it take for light from the Sun to reach Earth?",
+    "query": "sunlight travel time to earth?",
+    "same": true,
+    "kind": "keyword-style search query for same fact"
+  },
+  {
+    "cached": "Who was the first person to walk on the Moon?",
+    "query": "Who was the second person to walk on the Moon?",
+    "same": false,
+    "kind": "ordinal change yields a different person"
+  },
+  {
+    "cached": "Who wrote Pride and Prejudice?",
+    "query": "Pride and Prejudice author",
+    "same": true,
+    "kind": "question rewritten as a noun phrase"
+  },
+  {
+    "cached": "How do I convert Celsius to Fahrenheit?",
+    "query": "How do I convert Fahrenheit to Celsius?",
+    "same": false,
+    "kind": "conversion direction reversed"
+  },
+  {
+    "cached": "What's the contribution limit for a Roth IRA in 2025?",
+    "query": "How much can I put into a Roth IRA for tax year 2025?",
+    "same": true,
+    "kind": "personalized phrasing of the same finance limit question"
+  },
+  {
+    "cached": "What is the 401(k) employee contribution limit for 2025?",
+    "query": "What is the 401(k) employee contribution limit for 2024?",
+    "same": false,
+    "kind": "only the year differs; limit changes yearly"
+  },
+  {
+    "cached": "How do I submit an expense report for reimbursement?",
+    "query": "What's the process for getting paid back for business expenses?",
+    "same": true,
+    "kind": "different vocabulary for the same internal process"
+  },
+  {
+    "cached": "How long is the probation period for new hires?",
+    "query": "How long is the notice period when I resign?",
+    "same": false,
+    "kind": "two different employment periods with similar wording"
+  },
+  {
+    "cached": "How do I convert a string to an integer in JavaScript?",
+    "query": "js parse string to int",
+    "same": true,
+    "kind": "abbreviated developer shorthand"
+  },
+  {
+    "cached": "How do I reverse a string in Python?",
+    "query": "How do I reverse the order of words in a sentence in Python?",
+    "same": false,
+    "kind": "character reversal vs word-order reversal"
+  },
+  {
+    "cached": "What does HTTP status code 429 mean?",
+    "query": "I keep getting a 429 back from the API, what does that status code mean?",
+    "same": true,
+    "kind": "situational framing around the same definition question"
+  },
+  {
+    "cached": "What does a 401 Unauthorized response mean?",
+    "query": "What does a 403 Forbidden response mean?",
+    "same": false,
+    "kind": "adjacent status codes with distinct meanings"
+  },
+  {
+    "cached": "What's a good recipe for banana bread?",
+    "query": "How do I set up two-factor authentication on my account?",
+    "same": false,
+    "kind": "unrelated topics (easy negative)"
+  },
+  {
+    "cached": "What is the boiling point of water in Fahrenheit at sea level?",
+    "query": "At sea level, water boils at how many degrees F?",
+    "same": true,
+    "kind": "reordered clauses with unit abbreviation"
+  },
+  {
+    "cached": "How many tablespoons are in a cup?",
+    "query": "How many teaspoons are in a cup?",
+    "same": false,
+    "kind": "unit swap changes the number"
+  },
+  {
+    "cached": "Can I change the email address on my account?",
+    "query": "Is it possible to update the email linked to my profile?",
+    "same": true,
+    "kind": "support question reworded with synonyms"
+  },
+  {
+    "cached": "How do I cancel my order before it ships?",
+    "query": "How do I return an order after it's been delivered?",
+    "same": false,
+    "kind": "cancellation vs return; different support flows"
+  },
+  {
+    "cached": "Are employees allowed to use personal devices to access company email?",
+    "query": "Is BYOD permitted for checking work email?",
+    "same": true,
+    "kind": "acronym-based paraphrase of an IT policy question"
+  },
+  {
+    "cached": "Which of our plans include SSO?",
+    "query": "Which of our plans don't include SSO?",
+    "same": false,
+    "kind": "negation produces the complementary answer"
+  },
+  {
+    "cached": "How do I center a div horizontally and vertically with flexbox?",
+    "query": "css flexbox - how to put an element dead center in its container?",
+    "same": true,
+    "kind": "colloquial paraphrase of a CSS how-to"
+  },
+  {
+    "cached": "How do I make text bold in Markdown?",
+    "query": "How do I make text italic in Markdown?",
+    "same": false,
+    "kind": "sibling formatting option needs different syntax"
+  },
+  {
+    "cached": "What's the difference between affect and effect?",
+    "query": "affect vs effect, when do I use which??",
+    "same": true,
+    "kind": "casual grammar question, same comparison"
+  },
+  {
+    "cached": "What is the GDP of Germany?",
+    "query": "How do I write a for loop in Bash?",
+    "same": false,
+    "kind": "unrelated domains (easy negative)"
+  },
+  {
+    "cached": "Do I need a visa to visit Japan as a US citizen for two weeks of tourism?",
+    "query": "I'm American and going to Japan on vacation for 14 days. Is a visa required?",
+    "same": true,
+    "kind": "first-person restatement with equivalent duration"
+  },
+  {
+    "cached": "Do I need a passport to fly from New York to Los Angeles?",
+    "query": "Do I need a passport to fly from New York to Toronto?",
+    "same": false,
+    "kind": "domestic vs international destination flips answer"
+  },
+  {
+    "cached": "How often should adults get a tetanus booster?",
+    "query": "how frequently do grown-ups need a tetanus shot booster",
+    "same": true,
+    "kind": "informal lowercase paraphrase of health question"
+  },
+  {
+    "cached": "What is a normal resting heart rate for adults?",
+    "query": "What is a normal resting heart rate for newborns?",
+    "same": false,
+    "kind": "age group swap changes the normal range"
+  },
+  {
+    "cached": "What is the formula for compound interest?",
+    "query": "compound interest equation?",
+    "same": true,
+    "kind": "short keyword form of a math/finance question"
+  },
+  {
+    "cached": "What's the penalty for withdrawing from a traditional IRA before age 59 1/2?",
+    "query": "Is there a penalty for withdrawing my Roth IRA contributions before 59 1/2?",
+    "same": false,
+    "kind": "account type swap; Roth contributions follow different rules"
+  },
+  {
+    "cached": "When is the open enrollment window for health benefits?",
+    "query": "open enrollment for medical/dental benefits - when does it open and close?",
+    "same": true,
+    "kind": "fragmentary HR query asking the same dates"
+  },
+  {
+    "cached": "How do I request a new laptop from IT?",
+    "query": "What's the dress code for the office?",
+    "same": false,
+    "kind": "unrelated internal topics (easy negative)"
+  },
+  {
+    "cached": "How do I export my data from the app as a CSV?",
+    "query": "Is there a way to download my records in CSV format?",
+    "same": true,
+    "kind": "product-docs question with reworded verbs and nouns"
+  },
+  {
+    "cached": "How do I enable dark mode in the mobile app?",
+    "query": "How do I enable dark mode in the desktop app?",
+    "same": false,
+    "kind": "platform swap; settings location differs"
+  },
+  {
+    "cached": "What is photosynthesis?",
+    "query": "define photosynthesis",
+    "same": true,
+    "kind": "imperative form of a definition question"
+  },
+  {
+    "cached": "What were the main causes of World War I?",
+    "query": "What were the main consequences of World War I?",
+    "same": false,
+    "kind": "causes vs consequences of the same event"
+  },
+  {
+    "cached": "How do I list all running Docker containers?",
+    "query": "Which docker command shows the containers that are currently up?",
+    "same": true,
+    "kind": "reframed as asking for a command name"
+  },
+  {
+    "cached": "How do I install Node.js on macOS?",
+    "query": "How do I install Node.js on Windows?",
+    "same": false,
+    "kind": "operating system swap"
+  },
+  {
+    "cached": "Is the office closed on Juneteenth?",
+    "query": "Do we get June 19 off as a company holiday?",
+    "same": true,
+    "kind": "holiday named by date instead of by name"
+  },
+  {
+    "cached": "What time does the support line open on weekdays?",
+    "query": "What time does the support line open on Saturdays?",
+    "same": false,
+    "kind": "weekday vs weekend hours"
+  },
+  {
+    "cached": "What's the time complexity of looking up a key in a hash map?",
+    "query": "What's the time complexity of looking up a key in a balanced binary search tree?",
+    "same": false,
+    "kind": "data structure swap changes complexity"
+  },
+  {
+    "cached": "How long is the free trial for the Pro plan?",
+    "query": "How much does the Pro plan cost after the free trial ends?",
+    "same": false,
+    "kind": "same product, trial length vs price"
+  },
+  {
+    "cached": "What's the checked baggage allowance on international flights in economy?",
+    "query": "What's the checked baggage allowance on international flights in business class?",
+    "same": false,
+    "kind": "cabin class swap changes allowance"
+  },
+  {
+    "cached": "Can I deduct home office expenses if I'm a W-2 employee?",
+    "query": "Can I deduct home office expenses if I'm self-employed?",
+    "same": false,
+    "kind": "employment status flips the tax answer"
+  },
+  {
+    "cached": "What is the difference between a will and a trust?",
+    "query": "Do I need a lawyer to write a will?",
+    "same": false,
+    "kind": "same legal topic area, different question"
+  },
+  {
+    "cached": "What should I do if I miss a dose of my birth control pill?",
+    "query": "What should I do if I accidentally took two birth control pills?",
+    "same": false,
+    "kind": "missed dose vs double dose"
+  },
+  {
+    "cached": "What's the deadline to file my 2025 federal tax return?",
+    "query": "What's the deadline to file my 2025 federal tax return if I got an extension?",
+    "same": false,
+    "kind": "added condition changes the deadline"
+  },
+  {
+    "cached": "How much notice must a landlord give to raise rent in California?",
+    "query": "How much notice must a landlord give before entering a unit in California?",
+    "same": false,
+    "kind": "same jurisdiction and party, different notice rule"
+  },
+  {
+    "cached": "What's the weather like in Lisbon in October?",
+    "query": "What's the best way to get from Lisbon airport to the city center?",
+    "same": false,
+    "kind": "same destination, unrelated travel question"
+  }
+]

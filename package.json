@@ -1,0 +1,31 @@
+{
+  "name": "goodmem-semantic-cache",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A semantic cache for LLM responses, built on GoodMem, with a judge model and a labeled evaluation.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "setup": "node src/setup.js",
+    "demo": "node src/demo.js",
+    "evaluate": "node src/evaluate.js",
+    "teardown": "node src/teardown.js",
+    "test": "node --test",
+    "typecheck": "tsc",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "npm run typecheck && npm test && npm run format:check"
+  },
+  "dependencies": {
+    "@pairsystems/goodmem": "0.1.9",
+    "openai": "^7.25.0"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "prettier": "^3.9.9",
+    "typescript": "^7.0.2"
+  }
+}
