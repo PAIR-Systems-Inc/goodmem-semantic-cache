@@ -2,7 +2,7 @@
 
 A semantic cache for LLM responses, built on [GoodMem](https://goodmem.ai) with the Node.js SDK.
 It is the working example for the GoodMem blog post
-[Cachemaxxing: What a Semantic Cache Is, and Building One on GoodMem](https://goodmem.ai/blog/semantic-caching-with-goodmem/).
+[Cachemaxxing with Jev: A Semantic Cache That Knows Q3 from Q4](https://goodmem.ai/blog/semantic-caching-with-goodmem/).
 
 A semantic cache returns a stored answer when a new prompt means the same thing as one already
 answered, so the model is not called. The hard part is "means the same thing". Embedding
