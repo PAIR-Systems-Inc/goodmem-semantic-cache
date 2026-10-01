@@ -59,7 +59,7 @@ question, and whether the cached answer could be returned unchanged. Results are
 
 ## Run it
 
-You need Node.js 20 or later, a GoodMem server and API key
+You need Node.js 22 or later, a GoodMem server and API key
 ([install](https://docs.goodmem.ai/docs/how-to/install)), an OpenAI API key, and an OpenRouter API
 key for Jev.
 
